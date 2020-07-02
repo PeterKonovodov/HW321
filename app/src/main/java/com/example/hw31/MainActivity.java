@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    public String dequeToString(Deque deque) {
+    public String dequeToString(Deque<Character> deque) {
         StringBuilder sb = new StringBuilder(deque.size());
         deque.forEach(sb::append);
         return sb.toString();
