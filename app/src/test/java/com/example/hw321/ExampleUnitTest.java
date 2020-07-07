@@ -1,4 +1,4 @@
-package com.example.hw31;
+package com.example.hw321;
 
 import org.junit.Test;
 
